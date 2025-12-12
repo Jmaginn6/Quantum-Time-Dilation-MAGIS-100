@@ -39,6 +39,5 @@ class ModelParams:
     w0: float = 2*np.pi*4.29228e14  # clock freq
 
 
-params = ModelParams()
-print("Model Parameters Initialised!")
-print(params)
+#params = ModelParams()
+#print("Model Parameters Initialised!")
