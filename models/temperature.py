@@ -13,7 +13,7 @@ class TemperatureField:
         # Bottom temperature parameters
         T_bottom_mean_C: float = 20.2,
         T_bottom_amp_C: float = 1.0,
-        Bottom_phase_shift: float = 20.0,  # hours
+        Bottom_phase_shift: float = 15.0,  # hours
 
         # Vertical profile shaping
         gamma: float = 1.0,   # >1 biases toward bottom, <1 toward top
